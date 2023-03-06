@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jdbc.postgresql.model;
+package com.eric.spring.jdbc.postgresql.model;
 
 public class Tutorial {
 

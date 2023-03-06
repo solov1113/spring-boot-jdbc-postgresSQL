@@ -1,14 +1,13 @@
-package com.bezkoder.spring.jdbc.postgresql.repository;
+package com.eric.spring.jdbc.postgresql.repository;
 
 import java.util.List;
 
+import com.eric.spring.jdbc.postgresql.model.Tutorial;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.IncorrectResultSizeDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-
-import com.bezkoder.spring.jdbc.postgresql.model.Tutorial;
 
 @Repository
 public class JdbcTutorialRepository implements TutorialRepository {

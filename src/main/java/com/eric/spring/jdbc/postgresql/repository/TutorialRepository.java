@@ -1,8 +1,8 @@
-package com.bezkoder.spring.jdbc.postgresql.repository;
+package com.eric.spring.jdbc.postgresql.repository;
 
 import java.util.List;
 
-import com.bezkoder.spring.jdbc.postgresql.model.Tutorial;
+import com.eric.spring.jdbc.postgresql.model.Tutorial;
 
 public interface TutorialRepository {
   int save(Tutorial book);
